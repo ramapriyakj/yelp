@@ -17,7 +17,7 @@ business_path = "business.json";
 if os.path.isfile(business_path):    
     pass
 else:
-    print("Invalid file path. Please place the python file in the same folder as review.json and rerun.")
+    print("Invalid file path. Please place the python file in the same folder as business.json and rerun.")
     sys.exit(0)
 
 """Required libraries"""
